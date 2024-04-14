@@ -1,5 +1,5 @@
-import Head from "next/head";
 import TopBar from "./components/topbar";
+import Info from "./components/info";
 
 export default function Home() {
   return (
@@ -18,8 +18,10 @@ export default function Home() {
         <h1 className="text-xl font-bold">What is MEE6 Slander?</h1>
         <p className="text-[14px] mt-[2px] ml-[6px]">
           MEE6 Slander is a bot which insults the extremely popular MEE6 bot.
+          <br />
         </p>
       </div>
+      <Info />
     </main>
   );
 }
