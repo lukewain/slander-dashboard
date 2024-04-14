@@ -3,7 +3,7 @@ import MEE6 from "../../public/MEE6 Slander web.png";
 
 export default function TopBar() {
   return (
-    <div className="flex h-screen w-fit mx-auto justify-center items-center">
+    <div className="flex h-screen mx-auto justify-center items-center">
       <div className="flex text-[#fff]">
         <Image
           className="rounded-md"
