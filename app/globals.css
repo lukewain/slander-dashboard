@@ -30,4 +30,28 @@ hr {
   margin-left: auto;
   margin-right: auto;
   padding-top: 40px;
+  padding-bottom: 15px;
+}
+
+#question-wrap {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 80px;
+}
+
+#what-is {
+  padding-right: 30px;
+}
+
+#downarrow {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+  justify-content: end;
+}
+
+#inverted {
+  filter: invert(1)
 }
