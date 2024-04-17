@@ -1,4 +1,4 @@
-import TopBar from "./components/topbar";
+import TopBar from "./components/StartupAnimation";
 import Info from "./components/info";
 
 export default function Home() {
@@ -14,12 +14,17 @@ export default function Home() {
           Welcome!
         </h1>
       </div>
-      <div className="ml-8 mt-5" id="what-is">
-        <h1 className="text-xl font-bold">What is MEE6 Slander?</h1>
-        <p className="text-[14px] mt-[2px] ml-[6px]">
-          MEE6 Slander is a bot which insults the extremely popular MEE6 bot.
-          <br />
-        </p>
+      <div className="ml-8 mt-5" id="qna">
+        <div>
+          <h1 className="text-xl font-bold">What is MEE6 Slander?</h1>
+          <p className="text-[14px] mt-[2px] ml-[6px]">
+            MEE6 Slander is a bot which insults the extremely popular MEE6 bot.
+          </p>
+        </div>
+        <div>
+          <h1 className="text-xl font-bold">Little Tips!</h1>
+          <p>For MEE6 Slander to work effectively</p>
+        </div>
       </div>
       <Info />
     </main>

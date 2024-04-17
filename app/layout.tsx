@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import MEE6 from "../public/MEE6 Slander web.png";
 
 const inter = Inter({ subsets: ["latin"] });
 

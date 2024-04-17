@@ -1,0 +1,21 @@
+#animated-text {
+  opacity: 1;
+}
+
+#text-moving {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#initialText {
+  animation: removeInitialText 2s;
+}
+
+@keyframes removeInitialText {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
